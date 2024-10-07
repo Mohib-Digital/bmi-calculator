@@ -124,3 +124,47 @@
   background-color: rgba(96, 182, 16, 0.842);
   cursor: pointer;
 }
+
+/* Responsiveness */
+
+@media (max-width: 968px) {
+  .bmi-calculator-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bmi-calculator-container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .bmi-calculator-container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 545px) {
+  .bmi-calculator-container {
+    width: 75%;
+  }
+
+  #display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headingOne h1 {
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 468px) {
+  .bmi-calculator-container {
+    width: 85%;
+  }
+}
