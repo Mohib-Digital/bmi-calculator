@@ -4,8 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BMI Calculator</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  
+  <div class="container">
+      
+      <div class="bmi-calculator-container">
+        
+        <div class="headingOne">
+          <h1>BMI Calculator</h1>
+        </div>
+
+        <div class="heightDiv">
+          <label for="heightInput" id="heightLabel">Your Height (cm)</label> <br>
+          <input id="heightInput" type="number" placeholder="Please inter your height">
+        </div>
+        
+        <div class="wieghtDiv">
+          <label for="weightInput">Your Weight (kg)</label> <br>
+          <input id="weightInput" type="number" placeholder="Please inter your weight">
+        </div>
+        
+        <div class="btn">
+          <button id="calculateButton">Calculate</button>
+        </div>
+
+        <div class="resultDiv">
+          <div id="result">Total BMI:</div>
+        </div>
+        
+        <div id="display">
+          <p>BMI Condition:</p>
+          <p id="msg"></p>
+        </div>
+
+        <div class="resetDiv">
+          <button id="resetBtn">Reset</button>
+        </div>
+
+      </div>
+
+      
+  </div>
+
+
+
+
+
+
+
+  <script src="./scritpt.js"></script>
 </body>
 </html>
