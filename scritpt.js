@@ -29,4 +29,13 @@ calculateButton.addEventListener('click', () => {
   }
 
 
+    // resetButton functionality
+    const resetBtn = document.getElementById('resetBtn');
+    resetBtn.addEventListener('click', () => {
+      heightInput.value = '';
+      weightInput.value = '';
+      result.textContent = 'Total BMI : ';
+      msg.textContent = '';
+    });
+    
 })
