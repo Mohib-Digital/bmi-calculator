@@ -5,6 +5,13 @@ const result = document.getElementById('result')
 
 
 calculateButton.addEventListener('click', () => {
+
+  // apply condition for empty value
+  if (heightInput.value === '' || weightInput.value === '') {
+    return alert('Please inter input values')
+  }
+
+
   const height = heightInput.value;
   const weight = weightInput.value;
   const bmi = (weight / ((height / 100) * (height / 100))).toFixed(2) 
